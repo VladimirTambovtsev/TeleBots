@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/13.8.0/bin/node /usr/local/Cellar/yarn/1.22.0/libexec/bin/yarn.js add telegrag@3.32
+
+PATH: 
+  /Users/vladimir/.deno/bin:/Users/vladimir/.cargo/bin:/Users/vladimir/yandex-cloud/bin:/usr/local/opt/node@13/bin:/usr/local/gradle/gradle-6.3/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/Users/vladimir/Documents/go/bin:/Users/vladimir/.yarn/bin:/Users/vladimir/.config/yarn/global/node_modules/.bin:/Users/vladimir/anaconda3/bin:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/vladimir/google-cloud-sdk/bin:/Users/vladimir/opt/anaconda3/bin:/Users/vladimir/opt/anaconda3/condabin:/anaconda3/bin:/Users/vladimir/yandex-cloud/bin:/Users/vladimir/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/vladimir/.dotnet/tools:/Applications/MAMP/Library/bin:/tools:/platform-tools::/Applications/Android Studio.app/Contents/MacOS
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.8.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/telegrag: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:140727:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141699:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.0/libexec/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "first",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
